@@ -4,6 +4,19 @@ This project lets multiple players upload, emulate, and play cereal box board ga
 
 ---
 
+## Windows 98 Game Support
+
+**This app supports disc images that only run on Windows 98!**
+
+- When you create or join a session and upload a Windows 98 game ISO, the web app uses the [v86](https://github.com/copy/v86) emulator to boot a virtual PC.
+- This allows you to run Windows 98 and your game directly in the browser.
+- BIOS files are fetched from public servers for demo use.
+- Note: Windows 98 emulation in the browser is experimental and slow. Not all games will work, and performance may vary.
+
+**Legal note:** Only use BIOS and disc images you are legally permitted to use. This app fetches public BIOS files for demonstration. For production or private use, provide your own legal BIOS.
+
+---
+
 ## Features
 
 - Upload ZIP containing ISO of a board game.
