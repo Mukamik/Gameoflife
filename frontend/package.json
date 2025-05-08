@@ -1,0 +1,14 @@
+{
+  "name": "cerealbox-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.2"
+  },
+  "scripts": {
+    "start": "npx serve -s build",
+    "build": "npx esbuild src/index.js --bundle --outfile=public/bundle.js --loader:.js=jsx"
+  }
+}
